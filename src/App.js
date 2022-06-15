@@ -1,9 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { TodoList } from './TodoList';
+import { ChakraProvider } from "@chakra-ui/react"
 
 function App() {
   return (
+    <ChakraProvider>
+      <TodoList/>
+    </ChakraProvider>
+  )
+
+  return (
     <div className="App">
+
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
