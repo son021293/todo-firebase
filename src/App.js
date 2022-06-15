@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { TodoList } from './TodoList';
 import { ChakraProvider } from "@chakra-ui/react"
 
